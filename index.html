@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styless.css">
+    <title>muhammad farras 036</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h3>Pendaftaran Turnament Mobile Legend UPY</h3>
+        </div>
+        <form action="">
+            <label for="nama">Nama TIM</label><br>
+            <input type="text" placeholder="Nama Tim anda" id="nama"><br><br>
+            <label for="id">ID</label><br>
+            <input type="text" placeholder="ID TIM anda" id="id"><br><br>
+
+            <label for="role">Role</label><br>
+            <input type="radio" id="EXP lane" name="role" value="EXP lane">
+            <label for="EXP lane">EXP lane</label>
+            <input type="radio" id="Gold lane" name="role" value="Gold lane">
+            <label for="Gold lane">Gold lane</label>
+            <input type="radio" id="Mid lane" name="role" value="Mid lane">
+            <label for="Mid lane">Mid lane</label>
+            <input type="radio" id="Hyper" name="role" value="Hyper">
+            <label for="Hyper">Hyper</label>
+            <input type="radio" id="Roam" name="role" value="Roam">
+            <label for="Roam">Roam</label><br>
+
+            <label for="alamat">Alamat</label><br>
+            <textarea placeholder="Tulis alamat mu disini" name="alamat" id="alamat" cols="30" rows="5"></textarea><br><br>
+
+            <label for="angkatan">Angkatan</label><br>
+            <select id="angkatan" name="angkatan">
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+            </select><br><br>
+
+            <label for="tanggal">Tanggal</label><br>
+            <input type="date" id="tanggal"><br><br>
+            <button type="button" onclick="kirimData()">Kirim</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
